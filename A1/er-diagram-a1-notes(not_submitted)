@@ -1,0 +1,21 @@
+user should be able to get info of medical history of a particular patient which includes vaccination,hospitilation and other details.also the user can utilise functionalities such as asking for the number of covid cases in a particular location in the last x days.(including casualties).disease info should also include variant info of the patient.setatlf reporting or hospitalisations should also include details of patient location in the last 24 hours.(needed for contact tracing).how is social media a source of information?.(maybe info regarding need of resources in a region)
+Resources allocated to a region(resources can be an entity-which includes beds and wards for covid,vaccines and oxygen cylinders in a particular region).-(also look at how exactly testing labs can be related to patient info).-COVID itself can be an entity (wherein it includes composite attributes such as daily  cases = date,new cases,deaths)-(social media can be an entity
+resources can be an entity wherein it has attributes such as location(state + district),oxygen cylinders,vaccines available,beds in each hospital).-(can self reporting be an entity?)
+
+
+Entities(with attributes)
+
+1.Patients = 
+2.Resources =
+3.Hospitals =
+4.Covid_cases =
+5.Location = 
+6.
+
+
+*)Foreign key
+*)
+*)	  
+do look for er diagram of erp.
+
+primary key of the relationship set of which M is an attribute
