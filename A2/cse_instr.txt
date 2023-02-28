@@ -1,0 +1,22 @@
+Dear Student, 
+
+We have created an account on the server with the following credentials.
+
+Server IP Address: 10.5.18.72
+Roll Number: 20CS30036 to 20CS30066
+
+Server login:
+Username: <roll no>; Default password: du20
+ssh <roll no>@10.5.18.72
+To change the default server password: yppasswd
+
+MySQL login:
+Username: <roll no>; Default password: <roll no>
+mysql -u <roll no> -p 
+
+PostgreSQL login:
+Username: <roll no>; Default password: <roll no>
+psql -d <roll no> -U <roll no>
+
+Thanks
+for CSE SWLab

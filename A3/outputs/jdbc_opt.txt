@@ -1,0 +1,109 @@
+javac -cp postgresql-42.5.2.jar jdbc.java
+java -cp postgresql-42.5.2.jar jdbc.java
+Enter the query number (1-13): 
+1
+physician_name                
+------------------------------
+Anubhav                       
+Swanand                       
+Anand                         
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+2
+physician_name                
+------------------------------
+Anubhav                       
+Swanand                       
+Anand                         
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+3
+nurse_name                    
+------------------------------
+Reema                         
+Madhvi                        
+Rani                          
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+4
+patient_name                    patient_address               
+------------------------------  ------------------------------
+Dinesh                          Roorkee                       
+Anuj                            Ranchi                        
+Aritra                          Delhi                         
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+5
+patient_name                    patient_insurance_id          
+------------------------------  ------------------------------
+Anuj                            78                            
+Aritra                          89                            
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+6
+nurse_name                    
+------------------------------
+Reema                         
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+7
+nurse_name                      nurse_position                  physician_name                
+------------------------------  ------------------------------  ------------------------------
+Reema                           Senior nurse                    Anubhav                       
+Reema                           Senior nurse                    Anand                         
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+8
+physician_name                
+------------------------------
+Daman                         
+Faizan                        
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+9
+physician_name                
+------------------------------
+Faizan                        
+Anand                         
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+10
+physician_name                  procedure_name                  date                            patient_name                  
+------------------------------  ------------------------------  ------------------------------  ------------------------------
+Anand                           bypass surgery                  2023-01-14 00:00:00             Anuj                          
+Faizan                          open heart surgery              2023-01-07 00:00:00             Anuj                          
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+11
+patient_name                    physician_name                
+------------------------------  ------------------------------
+Aritra                          Swanand                       
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+12
+medicine_name                   medicine_brand                
+------------------------------  ------------------------------
+remdesivir                      Deserem                       
+Do you want to continue? (y/n)
+y
+Enter the query number (1-13): 
+13
+Enter the procedure name: 
+open heart surgery
+physician_name                
+------------------------------
+Daman                         
+Faizan                        
+Do you want to continue? (y/n)
+n

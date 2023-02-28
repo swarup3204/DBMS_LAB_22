@@ -1,0 +1,72 @@
+ physician_name 
+----------------
+ Anubhav
+ Swanand
+ Anand
+(3 rows)
+
+ physician_name 
+----------------
+ Anubhav
+ Swanand
+ Anand
+(3 rows)
+
+ nurse_name 
+------------
+ Reema
+ Madhvi
+ Rani
+(3 rows)
+
+ patient_name | patient_address 
+--------------+-----------------
+ Dinesh       | Roorkee
+ Anuj         | Ranchi
+ Aritra       | Delhi
+(3 rows)
+
+ patient_name | patient_insurance_id 
+--------------+----------------------
+ Anuj         |                   78
+ Aritra       |                   89
+(2 rows)
+
+ nurse_name 
+------------
+ Reema
+(1 row)
+
+ nurse_name | nurse_position | physician_name 
+------------+----------------+----------------
+ Reema      | Senior nurse   | Anubhav
+ Reema      | Senior nurse   | Anand
+(2 rows)
+
+ physician_name 
+----------------
+ Daman
+ Faizan
+(2 rows)
+
+ physician_name 
+----------------
+ Faizan
+ Anand
+(2 rows)
+
+ physician_name |   procedure_name   |        date         | patient_name 
+----------------+--------------------+---------------------+--------------
+ Anand          | bypass surgery     | 2023-01-14 00:00:00 | Anuj
+ Faizan         | open heart surgery | 2023-01-07 00:00:00 | Anuj
+(2 rows)
+
+ patient_name | physician_name 
+--------------+----------------
+ Aritra       | Swanand
+(1 row)
+
+ medicine_name | medicine_brand 
+---------------+----------------
+ remdesivir    | Deserem
+(1 row)

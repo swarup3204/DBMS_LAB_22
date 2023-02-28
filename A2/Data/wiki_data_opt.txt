@@ -1,0 +1,53 @@
+ physician_name 
+----------------
+(0 rows)
+
+ physician_name 
+----------------
+(0 rows)
+
+   nurse_name    
+-----------------
+ Laverne Roberts
+ Paul Flowers
+(2 rows)
+
+ patient_name | patient_address 
+--------------+-----------------
+(0 rows)
+
+ patient_name | patient_insurance_id 
+--------------+----------------------
+(0 rows)
+
+ nurse_name 
+------------
+(0 rows)
+
+ nurse_name | nurse_position | physician_name 
+------------+----------------+----------------
+(0 rows)
+
+  physician_name  
+------------------
+ Christopher Turk
+(1 row)
+
+ physician_name 
+----------------
+ Todd Quinlan
+(1 row)
+
+ physician_name |       procedure_name       |        date         | patient_name 
+----------------+----------------------------+---------------------+--------------
+ Todd Quinlan   | Obfuscated Dermogastrotomy | 2008-05-09 00:00:00 | Dennis Doe
+(1 row)
+
+ patient_name | physician_name 
+--------------+----------------
+(0 rows)
+
+ medicine_name | medicine_brand 
+---------------+----------------
+ Thesisin      | Foo Labs
+(1 row)

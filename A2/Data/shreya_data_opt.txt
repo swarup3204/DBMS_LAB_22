@@ -1,0 +1,77 @@
+ physician_name 
+----------------
+ A
+ B
+ C
+ AF
+(4 rows)
+
+ physician_name 
+----------------
+ C
+ B
+ A
+ AF
+(4 rows)
+
+ nurse_name 
+------------
+ F
+ F
+ H
+(3 rows)
+
+ patient_name | patient_address 
+--------------+-----------------
+ CD           | LMNO
+ AB           | ABCD
+(2 rows)
+
+ patient_name | patient_insurance_id 
+--------------+----------------------
+ AB           |                   78
+ BC           |                   89
+(2 rows)
+
+ nurse_name 
+------------
+ F
+ G
+(2 rows)
+
+ nurse_name | nurse_position | physician_name 
+------------+----------------+----------------
+ F          | Senior nurse   | A
+ G          | Trainee nurse  | D
+ F          | Senior nurse   | AF
+(3 rows)
+
+ physician_name 
+----------------
+ D
+ E
+(2 rows)
+
+ physician_name 
+----------------
+ E
+ AF
+(2 rows)
+
+ physician_name |   procedure_name   |        date         | patient_name 
+----------------+--------------------+---------------------+--------------
+ AF             | bypass surgery     | 2023-01-14 00:00:00 | AB
+ E              | open heart surgery | 2023-01-07 00:00:00 | AB
+(2 rows)
+
+ patient_name | physician_name 
+--------------+----------------
+ CD           | A
+ BC           | B
+(2 rows)
+
+ medicine_name | medicine_brand 
+---------------+----------------
+ paracetamol   | Foo lab
+
+ /*(remdesivir will aslo be output)*/

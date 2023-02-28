@@ -1,0 +1,105 @@
+Connecting to the PostgreSQL database...
+PostgreSQL database version:
+('PostgreSQL 15.2 (Ubuntu 15.2-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit',)
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+1
++------------------+
+| physician_name   |
+|------------------|
+| Anubhav          |
+| Swanand          |
+| Anand            |
++------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+2
++------------------+
+| physician_name   |
+|------------------|
+| Anubhav          |
+| Swanand          |
+| Anand            |
++------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+3
++--------------+
+| nurse_name   |
+|--------------|
+| Reema        |
+| Madhvi       |
+| Rani         |
++--------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+4
++----------------+-------------------+
+| patient_name   | patient_address   |
+|----------------+-------------------|
+| Dinesh         | Roorkee           |
+| Anuj           | Ranchi            |
+| Aritra         | Delhi             |
++----------------+-------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+5
++----------------+------------------------+
+| patient_name   |   patient_insurance_id |
+|----------------+------------------------|
+| Anuj           |                     78 |
+| Aritra         |                     89 |
++----------------+------------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+6
++--------------+
+| nurse_name   |
+|--------------|
+| Reema        |
++--------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+7
++--------------+------------------+------------------+
+| nurse_name   | nurse_position   | physician_name   |
+|--------------+------------------+------------------|
+| Reema        | Senior nurse     | Anubhav          |
+| Reema        | Senior nurse     | Anand            |
++--------------+------------------+------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+8
++------------------+
+| physician_name   |
+|------------------|
+| Daman            |
+| Faizan           |
++------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+10
++------------------+--------------------+---------------------+----------------+
+| physician_name   | procedure_name     | date                | patient_name   |
+|------------------+--------------------+---------------------+----------------|
+| Anand            | bypass surgery     | 2023-01-14 00:00:00 | Anuj           |
+| Faizan           | open heart surgery | 2023-01-07 00:00:00 | Anuj           |
++------------------+--------------------+---------------------+----------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+11
++----------------+------------------+
+| patient_name   | physician_name   |
+|----------------+------------------|
+| Aritra         | Swanand          |
++----------------+------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+12
++-----------------+------------------+
+| medicine_name   | medicine_brand   |
+|-----------------+------------------|
+| remdesivir      | Deserem          |
++-----------------+------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+13
+Enter procedure name
+open heart surgery
++------------------+
+| physician_name   |
+|------------------|
+| Daman            |
+| Faizan           |
++------------------+
+Enter 1 to 13 to execute the corresponding query or 0 to exit
+0
+Database connection closed.

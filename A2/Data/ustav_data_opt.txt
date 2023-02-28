@@ -1,0 +1,63 @@
+ physician_name 
+----------------
+ Courtney Walsh
+ Richard Hadlee
+(2 rows)
+
+ physician_name 
+----------------
+ Courtney Walsh
+(1 row)
+
+  nurse_name  
+--------------
+ David Boon
+ Andy Flowers
+(2 rows)
+
+   patient_name    |  patient_address   
+-------------------+--------------------
+ Richie Richardson | 37 Infinite Loop
+ Mark Waugh        | 101 Parkway Street
+(2 rows)
+
+ patient_name | patient_insurance_id 
+--------------+----------------------
+ Mark Waugh   |                    1
+(1 row)
+
+ nurse_name 
+------------
+ David Boon
+(1 row)
+
+ nurse_name | nurse_position | physician_name 
+------------+----------------+----------------
+ David Boon | Nurse          | Courtney Walsh
+(1 row)
+
+ physician_name 
+----------------
+ Courtney Walsh
+(1 row)
+
+ physician_name 
+----------------
+ Jeff Thomson
+(1 row)
+
+ physician_name | procedure_name  |        date         | patient_name 
+----------------+-----------------+---------------------+--------------
+ Jeff Thomson   | Cholecystectomy | 2018-05-09 00:00:00 | Ramiz Raza
+(1 row)
+
+   patient_name   | physician_name 
+------------------+----------------
+ Dilip Vengsarkar | Alan Donald
+(1 row)
+
+ medicine_name |     medicine_brand     
+---------------+------------------------
+ Actemra       | Foolki Labs
+ Remdesivir    | Donald Pharmaceuticals
+(2 rows)

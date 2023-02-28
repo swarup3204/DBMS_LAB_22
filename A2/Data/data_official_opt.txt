@@ -1,0 +1,57 @@
+ physician_name 
+----------------
+ Courtney Walsh
+ Richard Hadlee
+(2 rows)
+
+ physician_name 
+----------------
+(0 rows)
+
+  nurse_name  
+--------------
+ David Boon
+ Andy Flowers
+(2 rows)
+
+ patient_name | patient_address 
+--------------+-----------------
+(0 rows)
+
+ patient_name | patient_insurance_id 
+--------------+----------------------
+(0 rows)
+
+ nurse_name 
+------------
+ David Boon
+(1 row)
+
+ nurse_name | nurse_position | physician_name 
+------------+----------------+----------------
+ David Boon | Nurse          | Courtney Walsh
+(1 row)
+
+ physician_name 
+----------------
+ Courtney Walsh
+(1 row)
+
+ physician_name 
+----------------
+ Jeff Thomson
+(1 row)
+
+ physician_name | procedure_name  |        date         | patient_name 
+----------------+-----------------+---------------------+--------------
+ Jeff Thomson   | cholecystectomy | 2018-05-09 00:00:00 | Ramiz Raza
+(1 row)
+
+ patient_name | physician_name 
+--------------+----------------
+(0 rows)
+
+ medicine_name | medicine_brand 
+---------------+----------------
+ Actemra       | Foolki Labs
+(1 row)
